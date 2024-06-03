@@ -3,7 +3,7 @@ import joblib,os
 import pandas as pd
 import requests
 
-import TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 data_train = pd.read_excel("Book1.xlsx")
 
 
